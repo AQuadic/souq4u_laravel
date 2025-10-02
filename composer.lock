@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb3fc2ca8df1fc140e8fa02137cee73a",
+    "content-hash": "5a20ec3e4b0d121c3d1f5a356b1d9dd3",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -733,12 +733,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/notification-module.git",
-                "reference": "eef92ef7c8f3e02e58dfb9d0095348ce80f0b63e"
+                "reference": "f4c8a84843f7f5960b279bf649bea98fbb2274cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/eef92ef7c8f3e02e58dfb9d0095348ce80f0b63e",
-                "reference": "eef92ef7c8f3e02e58dfb9d0095348ce80f0b63e",
+                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/f4c8a84843f7f5960b279bf649bea98fbb2274cb",
+                "reference": "f4c8a84843f7f5960b279bf649bea98fbb2274cb",
                 "shasum": ""
             },
             "require": {
@@ -786,7 +786,7 @@
                 "source": "https://github.com/AQuadic/notification-module/tree/main",
                 "issues": "https://github.com/AQuadic/notification-module/issues"
             },
-            "time": "2025-10-02T12:38:14+00:00"
+            "time": "2025-10-02T12:51:07+00:00"
         },
         {
             "name": "aquadic/order-module",
@@ -1025,16 +1025,10 @@
         {
             "name": "aquadic/suggestion-module",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:AQuadic/suggestion-module.git",
-                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/1187061286c71bfcd21c51f6faf7c84c21e2216d",
-                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d",
-                "shasum": ""
+                "type": "path",
+                "url": "../modules/suggestion-module",
+                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d"
             },
             "require": {
                 "aquadic/common-traits": "*",
@@ -1047,7 +1041,6 @@
                 "spatie/laravel-translatable": "^6.0",
                 "ysfkaya/filament-phone-input": "^3.0"
             },
-            "default-branch": true,
             "type": "laravel-module",
             "extra": {
                 "laravel": {
@@ -1073,11 +1066,10 @@
                     "email": "tech@aquadic.com"
                 }
             ],
-            "support": {
-                "source": "https://github.com/AQuadic/suggestion-module/tree/main",
-                "issues": "https://github.com/AQuadic/suggestion-module/issues"
-            },
-            "time": "2025-09-29T12:33:52+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "aquadic/user-module",

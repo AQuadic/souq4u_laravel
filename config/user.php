@@ -136,7 +136,7 @@ return [
     ],
 
     'filament' => [
-        'resource_extended' => true,
+        'resource_extended' => false,
         'page_extended' => false,
         'widget_extended' => false,
     ],

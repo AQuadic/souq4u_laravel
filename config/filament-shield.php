@@ -77,7 +77,7 @@ return [
         ],
 
         'resources' => [
-            'AddressResource','CityResource'
+
         ],
     ],
 
