@@ -7,8 +7,41 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "aquadic/address-module": "@dev",
+        "aquadic/admin-module": "@dev",
+        "aquadic/cart-module": "v2.x-dev",
+        "aquadic/category-module": "@dev",
+        "aquadic/cloudwa-api": "@dev",
+        "aquadic/common-traits": "@dev",
+        "aquadic/coupon-module": "@dev",
+        "aquadic/favorite-module": "@dev",
+        "aquadic/media-module": "@dev",
+        "aquadic/notification-module": "@dev",
+        "aquadic/order-module": "v2.x-dev",
+        "aquadic/page-module": "@dev",
+        "aquadic/product-module": "v2.x-dev",
+        "aquadic/review-module": "v2.x-dev",
+        "aquadic/suggestion-module": "@dev",
+        "aquadic/user-module": "@dev",
+        "bezhansalleh/filament-google-analytics": "^2.1",
+        "bezhansalleh/filament-language-switch": "^3.1",
+        "coolsam/modules": "^4",
+        "flowframe/laravel-trend": "^0.4.0",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "knuckleswtf/scribe": "^5.3",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.10.1",
+        "malzariey/filament-daterangepicker-filter": "^3.4",
+        "mokhosh/filament-rating": "^1.4",
+        "nerdzlab/socialite-apple-sign-in": "^2.2",
+        "nwidart/laravel-modules": "v11.1.10",
+        "owenvoke/blade-fontawesome": "^2.9",
+        "rmsramos/activitylog": "^2.0",
+        "spatie/laravel-settings": "^3.4",
+        "spatie/laravel-translatable": "^6.11",
+        "stechstudio/filament-impersonate": "*",
+        "ysfkaya/filament-phone-input": "^3.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -31,10 +64,77 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/order-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/category-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/address-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/admin-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/cart-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/common-traits.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/coupon-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/favorite-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/media-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/notification-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/page-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/product-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/review-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/suggestion-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/user-module.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/EngALAlfy/filament-impersonate.git"
+        }
+    ],
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
@@ -62,6 +162,11 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        },
+        "merge-plugin": {
+            "include": [
+                "Modules/*/composer.json"
+            ]
         }
     },
     "config": {
@@ -69,10 +174,12 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
+            "joshbrw/laravel-module-installer": true,
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

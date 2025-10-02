@@ -1,0 +1,16 @@
+{
+    "Admin": true,
+    "User": true,
+    "Media": true,
+    "Address": true,
+    "Category": true,
+    "Product": true,
+    "Order": true,
+    "Favorite": true,
+    "Coupon": true,
+    "Cart": true,
+    "Review": true,
+    "Page": true,
+    "Notification": true,
+    "Suggestion": true
+}
