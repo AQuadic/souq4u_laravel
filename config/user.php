@@ -12,7 +12,7 @@ return [
     'name' => 'User',
     'model' => \App\Models\User::class,
     'policy' => \Modules\User\Policies\UserPolicy::class,
-    'model_label' => 'user',
+    'model_label' => 'users',
     'tenant' => [
         'model' => null,
         'scope' => false,

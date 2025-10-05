@@ -9,9 +9,8 @@ use Filament\Forms\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
-use Filament\Resources\Concerns\Translatable;
 
-class Social
+class Social extends SettingsPage
 {
     use HasPageShield;
     protected static ?string $navigationIcon = 'heroicon-o-cog-6-tooth';
@@ -19,14 +18,7 @@ class Social
     protected static string $settings = SocialSettings::class;
     protected static ?int $navigationSort =-96  ;
 
-    public static function shouldRegisterNavigation(): bool
-    {
-        $business = Filament::getTenant();
-        if (!$business || !is_array($business->assign) || !array_key_exists('app_module', $business->assign)) {
-            return false;
-        }
-        return $business->assign['app_module'] === true;
-    }
+
     public function getTitle(): string
     {
         return __('Social Media Settings');
@@ -54,8 +46,8 @@ class Social
                     ->schema([
                         TextInput::make('url')
                             ->label(__('website url'))
-                            ->hint(__('https://aarluxe.ae'))
-                            ->placeholder('https://aarluxe.ae')
+                            ->hint(__('https://souq4u.com'))
+                            ->placeholder('https://souq4u.com')
                             ->prefixIcon('heroicon-o-globe-alt')
                             ->nullable(),
                         TextInput::make('phone')
@@ -75,7 +67,7 @@ class Social
                         TextInput::make('email')
                             ->label(__('email'))
                             ->hint(__('email'))
-                            ->placeholder('Email (e.g: support@aarluxe.net')
+                            ->placeholder('Email (e.g: support@souq4u.net')
                             //    ->prefixIcon('far-envelope')
                             ->email()
                             ->nullable(),
@@ -87,49 +79,49 @@ class Social
                         TextInput::make('facebook')
                             ->label(__('facebook'))
                             ->hint(__('url'))
-                            ->placeholder('Facebook Page (e.g: https://facebook.com/aarluxe')
+                            ->placeholder('Facebook Page (e.g: https://facebook.com/souq4u')
                             //    ->prefixIcon('fab-facebook')
                             ->url()
                             ->nullable(),
                         TextInput::make('instagram')
                             ->label(__('instagram'))
                             ->hint(__('url'))
-                            ->placeholder('Instagram Page (e.g: https://instagram.com/aarluxe')
+                            ->placeholder('Instagram Page (e.g: https://instagram.com/souq4u')
                             //    ->prefixIcon('fab-instagram')
                             ->url()
                             ->nullable(),
                         TextInput::make('tiktok')
                             ->label(__('tiktok'))
                             ->hint(__('url'))
-                            ->placeholder('Tiktok Page (e.g: https://tiktok.com/aarluxe')
+                            ->placeholder('Tiktok Page (e.g: https://tiktok.com/souq4u')
                             //   ->prefixIcon('fab-tiktok')
                             ->url()
                             ->nullable(),
                         TextInput::make('snapchat')
                             ->label(__('snapchat'))
                             ->hint(__('url'))
-                            ->placeholder('Snapchat Page (e.g: https://snapchat.com/aarluxe')
+                            ->placeholder('Snapchat Page (e.g: https://snapchat.com/souq4u')
                             //   ->prefixIcon('fab-snapchat')
                             ->url()
                             ->nullable(),
                         TextInput::make('twitter')
                             ->label(__('twitter'))
                             ->hint(__('url'))
-                            ->placeholder('X (aka. Twitter) Page (e.g: https://twitter.com/aarluxe')
+                            ->placeholder('X (aka. Twitter) Page (e.g: https://twitter.com/souq4u')
                             //    ->prefixIcon('fab-x-twitter')
                             ->url()
                             ->nullable(),
                         TextInput::make('youtube')
                             ->label(__('youtube'))
                             ->hint(__('url'))
-                            ->placeholder('Youtube Page (e.g: https://youtube.com/aarluxe')
+                            ->placeholder('Youtube Page (e.g: https://youtube.com/souq4u')
                             //   ->prefixIcon('fab-youtube')
                             ->url()
                             ->nullable(),
                         TextInput::make('linkedin')
                             ->label(__('linkedin'))
                             ->hint(__('url'))
-                            ->placeholder('LinkedIn Page (e.g: https://linkedin.com/aarluxe')
+                            ->placeholder('LinkedIn Page (e.g: https://linkedin.com/souq4u')
                             //   ->prefixIcon('fab-linkedin')
                             ->url()
                             ->nullable(),

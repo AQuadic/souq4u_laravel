@@ -14,6 +14,8 @@
         "aquadic/cloudwa-api": "@dev",
         "aquadic/common-traits": "@dev",
         "aquadic/coupon-module": "@dev",
+        "filament/filament": "^3.2",
+        "filament/spatie-laravel-settings-plugin": "^3.2",
         "aquadic/favorite-module": "@dev",
         "aquadic/media-module": "@dev",
         "aquadic/notification-module": "@dev",

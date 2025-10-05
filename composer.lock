@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a20ec3e4b0d121c3d1f5a356b1d9dd3",
+    "content-hash": "7186e35e81e1f1e9630a72db5550bcb2",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/order-module.git",
-                "reference": "c274d30dea9fb315ce1e544a5b4d75da2fbd33cf"
+                "reference": "8d469c242f601e02636491448929e1facacff776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/c274d30dea9fb315ce1e544a5b4d75da2fbd33cf",
-                "reference": "c274d30dea9fb315ce1e544a5b4d75da2fbd33cf",
+                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/8d469c242f601e02636491448929e1facacff776",
+                "reference": "8d469c242f601e02636491448929e1facacff776",
                 "shasum": ""
             },
             "require": {
@@ -847,7 +847,7 @@
                 "source": "https://github.com/AQuadic/order-module/tree/v2",
                 "issues": "https://github.com/AQuadic/order-module/issues"
             },
-            "time": "2025-10-01T14:48:12+00:00"
+            "time": "2025-10-02T14:35:36+00:00"
         },
         {
             "name": "aquadic/page-module",
@@ -855,12 +855,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/page-module.git",
-                "reference": "2328fd1d3305be0243dbe7ab833ef7163fc1da16"
+                "reference": "27f4797d12300aea61c8520a0ed2c280b4793296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/page-module/zipball/2328fd1d3305be0243dbe7ab833ef7163fc1da16",
-                "reference": "2328fd1d3305be0243dbe7ab833ef7163fc1da16",
+                "url": "https://api.github.com/repos/AQuadic/page-module/zipball/27f4797d12300aea61c8520a0ed2c280b4793296",
+                "reference": "27f4797d12300aea61c8520a0ed2c280b4793296",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "source": "https://github.com/AQuadic/page-module/tree/main",
                 "issues": "https://github.com/AQuadic/page-module/issues"
             },
-            "time": "2025-10-02T09:28:03+00:00"
+            "time": "2025-10-05T09:11:16+00:00"
         },
         {
             "name": "aquadic/product-module",
@@ -913,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/product-module.git",
-                "reference": "faa090a394f4ccaa354660ec1c73b4d4ef97b06e"
+                "reference": "2e7e90f7fbe258f44fa2a2ca498c005f95e143c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/faa090a394f4ccaa354660ec1c73b4d4ef97b06e",
-                "reference": "faa090a394f4ccaa354660ec1c73b4d4ef97b06e",
+                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/2e7e90f7fbe258f44fa2a2ca498c005f95e143c2",
+                "reference": "2e7e90f7fbe258f44fa2a2ca498c005f95e143c2",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +965,7 @@
                 "source": "https://github.com/AQuadic/product-module/tree/v2",
                 "issues": "https://github.com/AQuadic/product-module/issues"
             },
-            "time": "2025-10-02T09:27:27+00:00"
+            "time": "2025-10-05T09:11:15+00:00"
         },
         {
             "name": "aquadic/review-module",
@@ -1025,10 +1025,16 @@
         {
             "name": "aquadic/suggestion-module",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../modules/suggestion-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:AQuadic/suggestion-module.git",
                 "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/1187061286c71bfcd21c51f6faf7c84c21e2216d",
+                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d",
+                "shasum": ""
             },
             "require": {
                 "aquadic/common-traits": "*",
@@ -1041,6 +1047,7 @@
                 "spatie/laravel-translatable": "^6.0",
                 "ysfkaya/filament-phone-input": "^3.0"
             },
+            "default-branch": true,
             "type": "laravel-module",
             "extra": {
                 "laravel": {
@@ -1066,10 +1073,11 @@
                     "email": "tech@aquadic.com"
                 }
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/AQuadic/suggestion-module/tree/main",
+                "issues": "https://github.com/AQuadic/suggestion-module/issues"
+            },
+            "time": "2025-09-29T12:33:52+00:00"
         },
         {
             "name": "aquadic/user-module",
@@ -1077,12 +1085,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/user-module.git",
-                "reference": "5d5431f988483d7ee13dcaa19d419821bd7a89fe"
+                "reference": "d726c7fd315a4d8b7417ff45d8514fd003cde2d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/5d5431f988483d7ee13dcaa19d419821bd7a89fe",
-                "reference": "5d5431f988483d7ee13dcaa19d419821bd7a89fe",
+                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/d726c7fd315a4d8b7417ff45d8514fd003cde2d7",
+                "reference": "d726c7fd315a4d8b7417ff45d8514fd003cde2d7",
                 "shasum": ""
             },
             "require": {
@@ -1138,7 +1146,7 @@
                 "source": "https://github.com/AQuadic/user-module/tree/main",
                 "issues": "https://github.com/AQuadic/user-module/issues"
             },
-            "time": "2025-10-02T09:27:00+00:00"
+            "time": "2025-10-05T09:14:14+00:00"
         },
         {
             "name": "beste/clock",
@@ -3639,6 +3647,53 @@
                 "source": "https://github.com/filamentphp/filament"
             },
             "time": "2025-07-08T20:42:14+00:00"
+        },
+        {
+            "name": "filament/spatie-laravel-settings-plugin",
+            "version": "v3.3.42",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filamentphp/spatie-laravel-settings-plugin.git",
+                "reference": "80c9e960b30890fdc731da262b71255cb39bee31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filamentphp/spatie-laravel-settings-plugin/zipball/80c9e960b30890fdc731da262b71255cb39bee31",
+                "reference": "80c9e960b30890fdc731da262b71255cb39bee31",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "self.version",
+                "illuminate/console": "^10.45|^11.0|^12.0",
+                "illuminate/filesystem": "^10.45|^11.0|^12.0",
+                "illuminate/support": "^10.45|^11.0|^12.0",
+                "php": "^8.1",
+                "spatie/laravel-settings": "^2.2|^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Filament\\SpatieLaravelSettingsPluginServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Filament\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Filament support for `spatie/laravel-settings`.",
+            "homepage": "https://github.com/filamentphp/filament",
+            "support": {
+                "issues": "https://github.com/filamentphp/filament/issues",
+                "source": "https://github.com/filamentphp/filament"
+            },
+            "time": "2025-04-23T06:39:48+00:00"
         },
         {
             "name": "filament/spatie-laravel-translatable-plugin",
@@ -11596,16 +11651,16 @@
         },
         {
             "name": "stechstudio/filament-impersonate",
-            "version": "3.16",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/stechstudio/filament-impersonate.git",
-                "reference": "0035ca0b6ebd945ec1b1b2cd409282f56be5c74f"
+                "url": "https://github.com/EngALAlfy/filament-impersonate.git",
+                "reference": "f4229a3ff5c3c9b0c4dc963458a649bedf494b04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stechstudio/filament-impersonate/zipball/0035ca0b6ebd945ec1b1b2cd409282f56be5c74f",
-                "reference": "0035ca0b6ebd945ec1b1b2cd409282f56be5c74f",
+                "url": "https://api.github.com/repos/EngALAlfy/filament-impersonate/zipball/f4229a3ff5c3c9b0c4dc963458a649bedf494b04",
+                "reference": "f4229a3ff5c3c9b0c4dc963458a649bedf494b04",
                 "shasum": ""
             },
             "require": {
@@ -11625,16 +11680,14 @@
                     "STS\\FilamentImpersonate\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A Filament package to impersonate your users.",
             "support": {
-                "issues": "https://github.com/stechstudio/filament-impersonate/issues",
-                "source": "https://github.com/stechstudio/filament-impersonate/tree/3.16"
+                "source": "https://github.com/EngALAlfy/filament-impersonate/tree/v1.0.0"
             },
-            "time": "2025-04-15T23:12:37+00:00"
+            "time": "2025-07-03T12:02:05+00:00"
         },
         {
             "name": "symfony/cache",

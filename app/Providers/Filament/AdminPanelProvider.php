@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use App\Filament\Pages\Social;
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
 use Coolsam\Modules\ModulesPlugin;
 use Filament\Http\Middleware\Authenticate;
@@ -38,6 +39,7 @@ class AdminPanelProvider extends PanelProvider
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
                 Pages\Dashboard::class,
+
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
