@@ -6,7 +6,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Modules\Address\Traits\HasAddresses;
 
 class User extends \Modules\User\Models\User
 {
+    use HasAddresses;
 }
