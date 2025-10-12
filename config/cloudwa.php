@@ -7,7 +7,7 @@ return [
     |--------------------------------------------------------------------------
     | API TOKEN TO AUTHENTICATE WITH AQ SERVER. (YOU CAN CREATE ONE FROM PROFILE).
     */
-    'api_token' => env('CLOUDWA_API_TOKEN', '5441878|WY0eJLK0mgTVhYp9KxB0wnMgW5bRdKzok5irMPDdac33204b'),
+    'api_token' => env('CLOUDWA_API_TOKEN', '5441913|q14COAM5pJ9JLaWJE931p2TU5ygAaK7qnrDvzTiy51c869af'),
 
     /*
     |--------------------------------------------------------------------------
@@ -32,5 +32,5 @@ return [
     |--------------------------------------------------------------------------
     | TEAM ID (THIS IS UNIQUE FOR EACH ACCOUNT).
     */
-    'team_id' => env('CLOUDWA_TEAM_ID', '74'),
+    'team_id' => env('CLOUDWA_TEAM_ID', '174'),
 ];
