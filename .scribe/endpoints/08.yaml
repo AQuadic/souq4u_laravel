@@ -1,0 +1,111 @@
+name: Notification
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - POST
+    uri: api/device
+    metadata:
+      groupName: Notification
+      groupDescription: ''
+      subgroup: Devices
+      subgroupDescription: ''
+      title: 'Add Or Update Devices'
+      description: ''
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      device_type:
+        name: device_type
+        description: 'should be ios,android,web.'
+        required: true
+        example: android
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      device_token:
+        name: device_token
+        description: 'should be unique id to device.'
+        required: true
+        example: AQ-DEVICE-2022
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      device_name:
+        name: device_name
+        description: 'optional should be name of device.'
+        required: false
+        example: 'AQ Best Device Ever'
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: true
+        custom: []
+      app_id:
+        name: app_id
+        description: 'should be app type.'
+        required: true
+        example: user
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      notifiable_type:
+        name: notifiable_type
+        description: 'should be notifying method.'
+        required: true
+        example: firebase
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      notifiable_id:
+        name: notifiable_id
+        description: 'should be notifying token.'
+        required: true
+        example: XXXXAAAAXXXXAAAAXXXX
+        type: string
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      enabled:
+        name: enabled
+        description: 'is notification enabled or not.'
+        required: true
+        example: false
+        type: boolean
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: true
+        custom: []
+    cleanBodyParameters:
+      device_type: android
+      device_token: AQ-DEVICE-2022
+      device_name: 'AQ Best Device Ever'
+      app_id: user
+      notifiable_type: firebase
+      notifiable_id: XXXXAAAAXXXXAAAAXXXX
+      enabled: false
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

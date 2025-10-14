@@ -1,0 +1,523 @@
+name: Admins
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - POST
+    uri: api/admin/forgot
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Forgot Password Using Email/Phone.'
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: 'string Email of User.'
+        required: false
+        example: User@AQuadic.com
+        type: sometimes
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone:
+        name: phone
+        description: 'string Phone Number of User.'
+        required: false
+        example: '01101782890'
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone_country:
+        name: phone_country
+        description: 'string Phone Country of User.'
+        required: false
+        example: EG
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      reset_type:
+        name: reset_type
+        description: 'Must be at least 3 characters. Must not be greater than 191 characters.'
+        required: true
+        example: m
+        type: string
+        enumValues:
+          - whatsapp_send
+          - whatsapp_receive
+          - mail_url
+          - mail_otp
+          - sms
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      email: User@AQuadic.com
+      phone: '01101782890'
+      phone_country: EG
+      reset_type: m
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/admin/resend
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'resend Verification Admin Account.'
+      description: ''
+      authenticated: true
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: 'string Email of User.'
+        required: false
+        example: User@AQuadic.com
+        type: sometimes
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone:
+        name: phone
+        description: 'string Phone Number of User.'
+        required: false
+        example: '01101782890'
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone_country:
+        name: phone_country
+        description: 'string Phone Country of User.'
+        required: false
+        example: EG
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      type:
+        name: type
+        description: 'string type of verify (verify or new).'
+        required: false
+        example: verify
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      email: User@AQuadic.com
+      phone: '01101782890'
+      phone_country: EG
+      type: verify
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/admin/verify
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Verify Admin Account.'
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: 'string Email of User.'
+        required: false
+        example: User@AQuadic.com
+        type: 'required_without:phone'
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone:
+        name: phone
+        description: 'string Phone Number of User.'
+        required: false
+        example: '01101782890'
+        type: 'required_without:email'
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone_country:
+        name: phone_country
+        description: 'string Phone Country of User.'
+        required: false
+        example: EG
+        type: 'required_with:phone'
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      code:
+        name: code
+        description: 'string OTP Code to Validate.'
+        required: false
+        example: '666666'
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      type:
+        name: type
+        description: "string this is either 'verify' or 'reset'."
+        required: false
+        example: verify
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      email: User@AQuadic.com
+      phone: '01101782890'
+      phone_country: EG
+      code: '666666'
+      type: verify
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/admin/change_password
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Change Password.'
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      password:
+        name: password
+        description: 'string new Password of User.'
+        required: false
+        example: password
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      reset_token:
+        name: reset_token
+        description: 'when not logged in Reset token of user.'
+        required: false
+        example: AAAA-BBBB-CCCC
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      firebase_token:
+        name: firebase_token
+        description: 'string Firebase token to verify this request.'
+        required: false
+        example: AAAA-BBBB-CCCC
+        type: 'required_without:reset_token'
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      email:
+        name: email
+        description: 'when not logged in string Email of User.'
+        required: false
+        example: User@AQuadic.com
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone:
+        name: phone
+        description: 'when not logged in  string Phone Number of User.'
+        required: false
+        example: '01101782890'
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone_country:
+        name: phone_country
+        description: 'when not logged in string Phone Country of User.'
+        required: false
+        example: EG
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      current_password:
+        name: current_password
+        description: 'when loggedin only string Password of User.'
+        required: false
+        example: password
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      password_confirmation:
+        name: password_confirmation
+        description: 'string new Password of User.'
+        required: false
+        example: password
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      password: password
+      reset_token: AAAA-BBBB-CCCC
+      firebase_token: AAAA-BBBB-CCCC
+      email: User@AQuadic.com
+      phone: '01101782890'
+      phone_country: EG
+      current_password: password
+      password_confirmation: password
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/admin/getCurrentAdmin
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/admin/update
+    metadata:
+      groupName: Admins
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: multipart/form-data
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'string Name User.'
+        required: false
+        example: 'AQuadic User'
+        type: optional
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      email:
+        name: email
+        description: 'string Email of User.'
+        required: false
+        example: User@AQuadic.com
+        type: sometimes
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone:
+        name: phone
+        description: 'string Phone Number of User.'
+        required: false
+        example: '01101782890'
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      phone_country:
+        name: phone_country
+        description: 'string Phone Country of User.'
+        required: false
+        example: EG
+        type: required
+        enumValues: []
+        exampleWasSpecified: true
+        nullable: false
+        custom: []
+      image:
+        name: image
+        description: 'Must be an image. Must not be greater than 5000 kilobytes.'
+        required: false
+        example: null
+        type: file
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+      password:
+        name: password
+        description: ''
+        required: false
+        example: '|]|{+-'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+      remove_image:
+        name: remove_image
+        description: ''
+        required: false
+        example: true
+        type: boolean
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      role:
+        name: role
+        description: ''
+        required: false
+        example: super_admin
+        type: string
+        enumValues:
+          - super_admin
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanBodyParameters:
+      name: 'AQuadic User'
+      email: User@AQuadic.com
+      phone: '01101782890'
+      phone_country: EG
+      password: '|]|{+-'
+      remove_image: true
+      role: super_admin
+    fileParameters:
+      image: null
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
