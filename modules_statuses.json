@@ -6,6 +6,7 @@
     "Category": true,
     "Product": true,
     "Order": true,
+    "Slider": true,
     "Favorite": true,
     "Coupon": true,
     "Cart": true,

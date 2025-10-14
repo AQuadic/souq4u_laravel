@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7186e35e81e1f1e9630a72db5550bcb2",
+    "content-hash": "ee4f14a2c004613bc899b6fd763e31e9",
     "packages": [
         {
             "name": "afatmustafa/blade-hugeicons",
@@ -140,12 +140,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/address-module.git",
-                "reference": "88dc2e70c191a4af682bfa63a75d62d6930f07c6"
+                "reference": "ef281dd82c0dfdde801d0bacc7cab83cdf99f27c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/address-module/zipball/88dc2e70c191a4af682bfa63a75d62d6930f07c6",
-                "reference": "88dc2e70c191a4af682bfa63a75d62d6930f07c6",
+                "url": "https://api.github.com/repos/AQuadic/address-module/zipball/ef281dd82c0dfdde801d0bacc7cab83cdf99f27c",
+                "reference": "ef281dd82c0dfdde801d0bacc7cab83cdf99f27c",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "source": "https://github.com/AQuadic/address-module/tree/main",
                 "issues": "https://github.com/AQuadic/address-module/issues"
             },
-            "time": "2025-10-07T09:39:04+00:00"
+            "time": "2025-10-13T12:49:03+00:00"
         },
         {
             "name": "aquadic/admin-module",
@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/category-module.git",
-                "reference": "9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e"
+                "reference": "eb53687051da71fbe814ef8f4f6cd925688df1ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/category-module/zipball/9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e",
-                "reference": "9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e",
+                "url": "https://api.github.com/repos/AQuadic/category-module/zipball/eb53687051da71fbe814ef8f4f6cd925688df1ed",
+                "reference": "eb53687051da71fbe814ef8f4f6cd925688df1ed",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
                 "source": "https://github.com/AQuadic/category-module/tree/main",
                 "issues": "https://github.com/AQuadic/category-module/issues"
             },
-            "time": "2025-10-06T11:31:22+00:00"
+            "time": "2025-10-13T10:53:24+00:00"
         },
         {
             "name": "aquadic/cloudwa-api",
@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/order-module.git",
-                "reference": "3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5"
+                "reference": "500de2ffa88900e8b8843ec051330684b4ab5aca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5",
-                "reference": "3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5",
+                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/500de2ffa88900e8b8843ec051330684b4ab5aca",
+                "reference": "500de2ffa88900e8b8843ec051330684b4ab5aca",
                 "shasum": ""
             },
             "require": {
@@ -848,7 +848,7 @@
                 "source": "https://github.com/AQuadic/order-module/tree/v2",
                 "issues": "https://github.com/AQuadic/order-module/issues"
             },
-            "time": "2025-10-12T15:14:08+00:00"
+            "time": "2025-10-14T08:27:11+00:00"
         },
         {
             "name": "aquadic/page-module",
@@ -914,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/product-module.git",
-                "reference": "3c37488b47f39f5d6d4ab625d9445c0313002230"
+                "reference": "408be7deb32913d7401eed4d85eaa8bea38eef3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/3c37488b47f39f5d6d4ab625d9445c0313002230",
-                "reference": "3c37488b47f39f5d6d4ab625d9445c0313002230",
+                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/408be7deb32913d7401eed4d85eaa8bea38eef3c",
+                "reference": "408be7deb32913d7401eed4d85eaa8bea38eef3c",
                 "shasum": ""
             },
             "require": {
@@ -966,7 +966,7 @@
                 "source": "https://github.com/AQuadic/product-module/tree/v2",
                 "issues": "https://github.com/AQuadic/product-module/issues"
             },
-            "time": "2025-10-12T15:03:41+00:00"
+            "time": "2025-10-14T09:16:49+00:00"
         },
         {
             "name": "aquadic/review-module",
@@ -974,12 +974,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/review-module.git",
-                "reference": "52c452682651576d06ae5847f2e2df165c552730"
+                "reference": "5b949de48485eb2f7d5dd195135c5c9db9f6376a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/review-module/zipball/52c452682651576d06ae5847f2e2df165c552730",
-                "reference": "52c452682651576d06ae5847f2e2df165c552730",
+                "url": "https://api.github.com/repos/AQuadic/review-module/zipball/5b949de48485eb2f7d5dd195135c5c9db9f6376a",
+                "reference": "5b949de48485eb2f7d5dd195135c5c9db9f6376a",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +1021,65 @@
                 "source": "https://github.com/AQuadic/review-module/tree/v2",
                 "issues": "https://github.com/AQuadic/review-module/issues"
             },
-            "time": "2025-10-01T12:35:55+00:00"
+            "time": "2025-10-13T15:13:39+00:00"
+        },
+        {
+            "name": "aquadic/slider-module",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:AQuadic/slider-module.git",
+                "reference": "200f2590bf78a6d92e5955926ca6fad73fe983a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AQuadic/slider-module/zipball/200f2590bf78a6d92e5955926ca6fad73fe983a4",
+                "reference": "200f2590bf78a6d92e5955926ca6fad73fe983a4",
+                "shasum": ""
+            },
+            "require": {
+                "aquadic/common-traits": "*",
+                "aquadic/media-module": "*",
+                "bezhansalleh/filament-shield": "^3.0",
+                "coolsam/modules": "^4.0",
+                "laravel/framework": "^11.0 || ^12.0",
+                "php": "^8.2 || ^8.3 || ^8.4"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.14"
+            },
+            "default-branch": true,
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Slider\\": "app/",
+                    "Modules\\Slider\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Slider\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Slider\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "AQuadic Software Solutions",
+                    "email": "tech@aquadic.com"
+                }
+            ],
+            "description": "Slider Module to be used inside our apps",
+            "support": {
+                "source": "https://github.com/AQuadic/slider-module/tree/main",
+                "issues": "https://github.com/AQuadic/slider-module/issues"
+            },
+            "time": "2025-10-13T09:32:23+00:00"
         },
         {
             "name": "aquadic/suggestion-module",
@@ -1029,12 +1087,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/suggestion-module.git",
-                "reference": "71cab65768bc8bab5ee362154dd9d0f6bda988a4"
+                "reference": "2b24354d9c95d793bf09f6574b27407c5dbf290e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/71cab65768bc8bab5ee362154dd9d0f6bda988a4",
-                "reference": "71cab65768bc8bab5ee362154dd9d0f6bda988a4",
+                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/2b24354d9c95d793bf09f6574b27407c5dbf290e",
+                "reference": "2b24354d9c95d793bf09f6574b27407c5dbf290e",
                 "shasum": ""
             },
             "require": {
@@ -1078,7 +1136,7 @@
                 "source": "https://github.com/AQuadic/suggestion-module/tree/main",
                 "issues": "https://github.com/AQuadic/suggestion-module/issues"
             },
-            "time": "2025-10-09T11:05:38+00:00"
+            "time": "2025-10-14T08:27:30+00:00"
         },
         {
             "name": "aquadic/user-module",
@@ -1086,12 +1144,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/user-module.git",
-                "reference": "f6aec7528207541b8a7199fa9b3c36aa2efa7942"
+                "reference": "9ced67313e586ca1ef17c66d40181ad90203892f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/f6aec7528207541b8a7199fa9b3c36aa2efa7942",
-                "reference": "f6aec7528207541b8a7199fa9b3c36aa2efa7942",
+                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/9ced67313e586ca1ef17c66d40181ad90203892f",
+                "reference": "9ced67313e586ca1ef17c66d40181ad90203892f",
                 "shasum": ""
             },
             "require": {
@@ -1147,7 +1205,7 @@
                 "source": "https://github.com/AQuadic/user-module/tree/main",
                 "issues": "https://github.com/AQuadic/user-module/issues"
             },
-            "time": "2025-10-09T16:21:45+00:00"
+            "time": "2025-10-13T17:16:34+00:00"
         },
         {
             "name": "beste/clock",
@@ -2174,16 +2232,16 @@
         },
         {
             "name": "cuyz/valinor",
-            "version": "2.2.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuyZ/Valinor.git",
-                "reference": "35470e576041dd9695ef36aceaab8925bc676586"
+                "reference": "f6e00a8c4196d2df483d454ab67a54f0ced60a1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/35470e576041dd9695ef36aceaab8925bc676586",
-                "reference": "35470e576041dd9695ef36aceaab8925bc676586",
+                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/f6e00a8c4196d2df483d454ab67a54f0ced60a1a",
+                "reference": "f6e00a8c4196d2df483d454ab67a54f0ced60a1a",
                 "shasum": ""
             },
             "require": {
@@ -2239,7 +2297,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CuyZ/Valinor/issues",
-                "source": "https://github.com/CuyZ/Valinor/tree/2.2.0"
+                "source": "https://github.com/CuyZ/Valinor/tree/2.2.2"
             },
             "funding": [
                 {
@@ -2247,7 +2305,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-29T13:07:34+00:00"
+            "time": "2025-10-13T07:23:21+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -5454,23 +5512,23 @@
         },
         {
             "name": "kreait/firebase-php",
-            "version": "7.22.0",
+            "version": "7.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kreait/firebase-php.git",
-                "reference": "97a39cb83de9acf1b0de8b0aa2fa0da0d8955c79"
+                "reference": "b75f8fa15d7ca9b029e0a87a152bcb67489f1623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/97a39cb83de9acf1b0de8b0aa2fa0da0d8955c79",
-                "reference": "97a39cb83de9acf1b0de8b0aa2fa0da0d8955c79",
+                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/b75f8fa15d7ca9b029e0a87a152bcb67489f1623",
+                "reference": "b75f8fa15d7ca9b029e0a87a152bcb67489f1623",
                 "shasum": ""
             },
             "require": {
                 "beste/clock": "^3.0",
                 "beste/in-memory-cache": "^1.3.1",
                 "beste/json": "^1.5.1",
-                "cuyz/valinor": "^2.0",
+                "cuyz/valinor": "^2.2.1",
                 "ext-ctype": "*",
                 "ext-filter": "*",
                 "ext-json": "*",
@@ -5494,17 +5552,17 @@
                 "psr/log": "^1.1|^2.0|^3.0.2"
             },
             "require-dev": {
-                "google/cloud-firestore": "^1.53.0",
-                "php-cs-fixer/shim": "^3.85.1",
+                "google/cloud-firestore": "^1.54.2",
+                "php-cs-fixer/shim": "^3.88.2",
                 "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.1.22",
+                "phpstan/phpstan": "^2.1.31",
                 "phpstan/phpstan-deprecation-rules": "^2.0.3",
                 "phpstan/phpstan-phpunit": "^2.0.7",
-                "phpstan/phpstan-strict-rules": "^2.0.6",
-                "phpunit/phpunit": "^10.5.48",
-                "rector/rector": "^2.1.2",
+                "phpstan/phpstan-strict-rules": "^2.0.7",
+                "phpunit/phpunit": "^10.5.58",
+                "rector/rector": "^2.2.2",
                 "shipmonk/composer-dependency-analyser": "^1.8.3",
-                "symfony/var-dumper": "^6.4.15 || ^7.3.2",
+                "symfony/var-dumper": "^6.4.15 || ^7.3.4",
                 "vlucas/phpdotenv": "^5.6.2"
             },
             "suggest": {
@@ -5551,7 +5609,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-20T22:11:10+00:00"
+            "time": "2025-10-12T23:21:27+00:00"
         },
         {
             "name": "kreait/firebase-tokens",
@@ -17368,6 +17426,7 @@
         "aquadic/page-module": 20,
         "aquadic/product-module": 20,
         "aquadic/review-module": 20,
+        "aquadic/slider-module": 20,
         "aquadic/suggestion-module": 20,
         "aquadic/user-module": 20
     },
