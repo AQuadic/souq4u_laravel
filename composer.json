@@ -17,6 +17,7 @@
         "filament/filament": "^3.2",
         "filament/spatie-laravel-settings-plugin": "^3.2",
         "aquadic/favorite-module": "@dev",
+        "aquadic/slider-module": "@dev",
         "aquadic/media-module": "@dev",
         "aquadic/notification-module": "@dev",
         "aquadic/order-module": "v2.x-dev",
@@ -74,6 +75,9 @@
         {
             "type": "vcs",
             "url": "git@github.com:aquadic/category-module.git"
+        },  {
+            "type": "vcs",
+            "url": "git@github.com:aquadic/slider-module.git"
         },
         {
             "type": "vcs",

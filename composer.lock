@@ -140,12 +140,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/address-module.git",
-                "reference": "09573ee432e1a67851a369315b922988577a671a"
+                "reference": "88dc2e70c191a4af682bfa63a75d62d6930f07c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/address-module/zipball/09573ee432e1a67851a369315b922988577a671a",
-                "reference": "09573ee432e1a67851a369315b922988577a671a",
+                "url": "https://api.github.com/repos/AQuadic/address-module/zipball/88dc2e70c191a4af682bfa63a75d62d6930f07c6",
+                "reference": "88dc2e70c191a4af682bfa63a75d62d6930f07c6",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "source": "https://github.com/AQuadic/address-module/tree/main",
                 "issues": "https://github.com/AQuadic/address-module/issues"
             },
-            "time": "2025-10-02T12:18:58+00:00"
+            "time": "2025-10-07T09:39:04+00:00"
         },
         {
             "name": "aquadic/admin-module",
@@ -265,12 +265,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/cart-module.git",
-                "reference": "f11c7859a48fdebdb0730cc34aebd9b82edeb8f0"
+                "reference": "bb23607f48df4b0aed14d91b3972730a2320e8e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/cart-module/zipball/f11c7859a48fdebdb0730cc34aebd9b82edeb8f0",
-                "reference": "f11c7859a48fdebdb0730cc34aebd9b82edeb8f0",
+                "url": "https://api.github.com/repos/AQuadic/cart-module/zipball/bb23607f48df4b0aed14d91b3972730a2320e8e9",
+                "reference": "bb23607f48df4b0aed14d91b3972730a2320e8e9",
                 "shasum": ""
             },
             "require": {
@@ -312,7 +312,7 @@
                 "source": "https://github.com/AQuadic/cart-module/tree/v2",
                 "issues": "https://github.com/AQuadic/cart-module/issues"
             },
-            "time": "2025-10-01T12:35:06+00:00"
+            "time": "2025-10-12T10:37:25+00:00"
         },
         {
             "name": "aquadic/category-module",
@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/category-module.git",
-                "reference": "96da6060d150b7db640717454eb733f4ce8b139a"
+                "reference": "9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/category-module/zipball/96da6060d150b7db640717454eb733f4ce8b139a",
-                "reference": "96da6060d150b7db640717454eb733f4ce8b139a",
+                "url": "https://api.github.com/repos/AQuadic/category-module/zipball/9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e",
+                "reference": "9dc8fdc165dd8d26ee0ac3d891715fb18e70b45e",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
                 "source": "https://github.com/AQuadic/category-module/tree/main",
                 "issues": "https://github.com/AQuadic/category-module/issues"
             },
-            "time": "2025-09-30T14:35:10+00:00"
+            "time": "2025-10-06T11:31:22+00:00"
         },
         {
             "name": "aquadic/cloudwa-api",
@@ -455,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/common-traits.git",
-                "reference": "5e64fa534dd257b9f5102311f7dc9b1ec50bf8c6"
+                "reference": "02a2566de6e559cc894c64d8243326590ea5f7b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/common-traits/zipball/5e64fa534dd257b9f5102311f7dc9b1ec50bf8c6",
-                "reference": "5e64fa534dd257b9f5102311f7dc9b1ec50bf8c6",
+                "url": "https://api.github.com/repos/AQuadic/common-traits/zipball/02a2566de6e559cc894c64d8243326590ea5f7b4",
+                "reference": "02a2566de6e559cc894c64d8243326590ea5f7b4",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                     "url": "https://github.com/AQuadic"
                 }
             ],
-            "time": "2025-09-08T08:49:59+00:00"
+            "time": "2025-10-06T09:10:31+00:00"
         },
         {
             "name": "aquadic/coupon-module",
@@ -565,12 +565,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/coupon-module.git",
-                "reference": "54fc8d57439af1d31b1bdc8db29690cd48adefce"
+                "reference": "fe387805cc91ebc16394e51f21be320ffbd06412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/coupon-module/zipball/54fc8d57439af1d31b1bdc8db29690cd48adefce",
-                "reference": "54fc8d57439af1d31b1bdc8db29690cd48adefce",
+                "url": "https://api.github.com/repos/AQuadic/coupon-module/zipball/fe387805cc91ebc16394e51f21be320ffbd06412",
+                "reference": "fe387805cc91ebc16394e51f21be320ffbd06412",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "source": "https://github.com/AQuadic/coupon-module/tree/main",
                 "issues": "https://github.com/AQuadic/coupon-module/issues"
             },
-            "time": "2025-10-02T09:26:39+00:00"
+            "time": "2025-10-08T09:33:43+00:00"
         },
         {
             "name": "aquadic/favorite-module",
@@ -733,12 +733,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/notification-module.git",
-                "reference": "f4c8a84843f7f5960b279bf649bea98fbb2274cb"
+                "reference": "48cb1f229f2a882eea1708464be9048756918c4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/f4c8a84843f7f5960b279bf649bea98fbb2274cb",
-                "reference": "f4c8a84843f7f5960b279bf649bea98fbb2274cb",
+                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/48cb1f229f2a882eea1708464be9048756918c4d",
+                "reference": "48cb1f229f2a882eea1708464be9048756918c4d",
                 "shasum": ""
             },
             "require": {
@@ -750,7 +750,8 @@
                 "laravel/framework": "^10.0 ||^11.0 || ^12.0",
                 "owenvoke/blade-fontawesome": "^2.9",
                 "php": "^8.2 || ^8.3 || ^8.4",
-                "staudenmeir/eloquent-json-relations": "^1.14"
+                "staudenmeir/eloquent-json-relations": "^1.14",
+                "twilio/sdk": "^8.8"
             },
             "require-dev": {
                 "laravel/pint": "^1.0"
@@ -786,7 +787,7 @@
                 "source": "https://github.com/AQuadic/notification-module/tree/main",
                 "issues": "https://github.com/AQuadic/notification-module/issues"
             },
-            "time": "2025-10-02T12:51:07+00:00"
+            "time": "2025-10-07T16:18:03+00:00"
         },
         {
             "name": "aquadic/order-module",
@@ -794,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/order-module.git",
-                "reference": "8d469c242f601e02636491448929e1facacff776"
+                "reference": "3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/8d469c242f601e02636491448929e1facacff776",
-                "reference": "8d469c242f601e02636491448929e1facacff776",
+                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5",
+                "reference": "3b7802655bc1dc1b47c1f96f759f0d9b493ee8d5",
                 "shasum": ""
             },
             "require": {
@@ -847,7 +848,7 @@
                 "source": "https://github.com/AQuadic/order-module/tree/v2",
                 "issues": "https://github.com/AQuadic/order-module/issues"
             },
-            "time": "2025-10-02T14:35:36+00:00"
+            "time": "2025-10-12T15:14:08+00:00"
         },
         {
             "name": "aquadic/page-module",
@@ -855,12 +856,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/page-module.git",
-                "reference": "27f4797d12300aea61c8520a0ed2c280b4793296"
+                "reference": "6d444fe84a24ad654000a99c17d95e61aad94350"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/page-module/zipball/27f4797d12300aea61c8520a0ed2c280b4793296",
-                "reference": "27f4797d12300aea61c8520a0ed2c280b4793296",
+                "url": "https://api.github.com/repos/AQuadic/page-module/zipball/6d444fe84a24ad654000a99c17d95e61aad94350",
+                "reference": "6d444fe84a24ad654000a99c17d95e61aad94350",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +906,7 @@
                 "source": "https://github.com/AQuadic/page-module/tree/main",
                 "issues": "https://github.com/AQuadic/page-module/issues"
             },
-            "time": "2025-10-05T09:11:16+00:00"
+            "time": "2025-10-05T09:41:35+00:00"
         },
         {
             "name": "aquadic/product-module",
@@ -913,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/product-module.git",
-                "reference": "2e7e90f7fbe258f44fa2a2ca498c005f95e143c2"
+                "reference": "3c37488b47f39f5d6d4ab625d9445c0313002230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/2e7e90f7fbe258f44fa2a2ca498c005f95e143c2",
-                "reference": "2e7e90f7fbe258f44fa2a2ca498c005f95e143c2",
+                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/3c37488b47f39f5d6d4ab625d9445c0313002230",
+                "reference": "3c37488b47f39f5d6d4ab625d9445c0313002230",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +966,7 @@
                 "source": "https://github.com/AQuadic/product-module/tree/v2",
                 "issues": "https://github.com/AQuadic/product-module/issues"
             },
-            "time": "2025-10-05T09:11:15+00:00"
+            "time": "2025-10-12T15:03:41+00:00"
         },
         {
             "name": "aquadic/review-module",
@@ -1028,12 +1029,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/suggestion-module.git",
-                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d"
+                "reference": "71cab65768bc8bab5ee362154dd9d0f6bda988a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/1187061286c71bfcd21c51f6faf7c84c21e2216d",
-                "reference": "1187061286c71bfcd21c51f6faf7c84c21e2216d",
+                "url": "https://api.github.com/repos/AQuadic/suggestion-module/zipball/71cab65768bc8bab5ee362154dd9d0f6bda988a4",
+                "reference": "71cab65768bc8bab5ee362154dd9d0f6bda988a4",
                 "shasum": ""
             },
             "require": {
@@ -1077,7 +1078,7 @@
                 "source": "https://github.com/AQuadic/suggestion-module/tree/main",
                 "issues": "https://github.com/AQuadic/suggestion-module/issues"
             },
-            "time": "2025-09-29T12:33:52+00:00"
+            "time": "2025-10-09T11:05:38+00:00"
         },
         {
             "name": "aquadic/user-module",
@@ -1085,12 +1086,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/user-module.git",
-                "reference": "d726c7fd315a4d8b7417ff45d8514fd003cde2d7"
+                "reference": "f6aec7528207541b8a7199fa9b3c36aa2efa7942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/d726c7fd315a4d8b7417ff45d8514fd003cde2d7",
-                "reference": "d726c7fd315a4d8b7417ff45d8514fd003cde2d7",
+                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/f6aec7528207541b8a7199fa9b3c36aa2efa7942",
+                "reference": "f6aec7528207541b8a7199fa9b3c36aa2efa7942",
                 "shasum": ""
             },
             "require": {
@@ -1146,7 +1147,7 @@
                 "source": "https://github.com/AQuadic/user-module/tree/main",
                 "issues": "https://github.com/AQuadic/user-module/issues"
             },
-            "time": "2025-10-05T09:14:14+00:00"
+            "time": "2025-10-09T16:21:45+00:00"
         },
         {
             "name": "beste/clock",
@@ -2430,16 +2431,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.3.3",
+            "version": "4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "231959669bb2173194c95636eae7f1b41b2a8b19"
+                "reference": "1a2fbd0e93b8dec7c3d1ac2b6396a7b929b130dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/231959669bb2173194c95636eae7f1b41b2a8b19",
-                "reference": "231959669bb2173194c95636eae7f1b41b2a8b19",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/1a2fbd0e93b8dec7c3d1ac2b6396a7b929b130dc",
+                "reference": "1a2fbd0e93b8dec7c3d1ac2b6396a7b929b130dc",
                 "shasum": ""
             },
             "require": {
@@ -2449,15 +2450,15 @@
                 "psr/log": "^1|^2|^3"
             },
             "require-dev": {
-                "doctrine/coding-standard": "13.0.1",
+                "doctrine/coding-standard": "14.0.0",
                 "fig/log-test": "^1",
                 "jetbrains/phpstorm-stubs": "2023.2",
-                "phpstan/phpstan": "2.1.22",
-                "phpstan/phpstan-phpunit": "2.0.6",
+                "phpstan/phpstan": "2.1.30",
+                "phpstan/phpstan-phpunit": "2.0.7",
                 "phpstan/phpstan-strict-rules": "^2",
                 "phpunit/phpunit": "11.5.23",
-                "slevomat/coding-standard": "8.16.2",
-                "squizlabs/php_codesniffer": "3.13.1",
+                "slevomat/coding-standard": "8.24.0",
+                "squizlabs/php_codesniffer": "4.0.0",
                 "symfony/cache": "^6.3.8|^7.0",
                 "symfony/console": "^5.4|^6.3|^7.0"
             },
@@ -2516,7 +2517,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.3.3"
+                "source": "https://github.com/doctrine/dbal/tree/4.3.4"
             },
             "funding": [
                 {
@@ -2532,7 +2533,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-04T23:52:42+00:00"
+            "time": "2025-10-09T09:11:36+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -3335,7 +3336,7 @@
         },
         {
             "name": "filament/actions",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/actions.git",
@@ -3388,7 +3389,7 @@
         },
         {
             "name": "filament/filament",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/panels.git",
@@ -3453,16 +3454,16 @@
         },
         {
             "name": "filament/forms",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/forms.git",
-                "reference": "3a42f619157c6101c3f5a4d0620f05bd9c687d62"
+                "reference": "da5401bf3684b6abc6cf1d8e152f01b25d815319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/forms/zipball/3a42f619157c6101c3f5a4d0620f05bd9c687d62",
-                "reference": "3a42f619157c6101c3f5a4d0620f05bd9c687d62",
+                "url": "https://api.github.com/repos/filamentphp/forms/zipball/da5401bf3684b6abc6cf1d8e152f01b25d815319",
+                "reference": "da5401bf3684b6abc6cf1d8e152f01b25d815319",
                 "shasum": ""
             },
             "require": {
@@ -3505,11 +3506,11 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2025-09-28T22:06:25+00:00"
+            "time": "2025-10-06T21:42:10+00:00"
         },
         {
             "name": "filament/infolists",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/infolists.git",
@@ -3560,7 +3561,7 @@
         },
         {
             "name": "filament/notifications",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/notifications.git",
@@ -3612,7 +3613,7 @@
         },
         {
             "name": "filament/spatie-laravel-media-library-plugin",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/spatie-laravel-media-library-plugin.git",
@@ -3650,7 +3651,7 @@
         },
         {
             "name": "filament/spatie-laravel-settings-plugin",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/spatie-laravel-settings-plugin.git",
@@ -3697,7 +3698,7 @@
         },
         {
             "name": "filament/spatie-laravel-translatable-plugin",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/spatie-laravel-translatable-plugin.git",
@@ -3742,7 +3743,7 @@
         },
         {
             "name": "filament/support",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/support.git",
@@ -3801,7 +3802,7 @@
         },
         {
             "name": "filament/tables",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/tables.git",
@@ -3853,7 +3854,7 @@
         },
         {
             "name": "filament/widgets",
-            "version": "v3.3.42",
+            "version": "v3.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/widgets.git",
@@ -4176,16 +4177,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php-lite",
-            "version": "9.0.15",
+            "version": "9.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php-lite.git",
-                "reference": "bdb457250790bba0a4f8f03e3a3eceb47805499e"
+                "reference": "e7d67fc9d91529f4eff950b058100fcbefd58dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php-lite/zipball/bdb457250790bba0a4f8f03e3a3eceb47805499e",
-                "reference": "bdb457250790bba0a4f8f03e3a3eceb47805499e",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php-lite/zipball/e7d67fc9d91529f4eff950b058100fcbefd58dfe",
+                "reference": "e7d67fc9d91529f4eff950b058100fcbefd58dfe",
                 "shasum": ""
             },
             "require": {
@@ -4250,7 +4251,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php-lite/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php-lite"
             },
-            "time": "2025-09-26T07:21:30+00:00"
+            "time": "2025-10-10T10:54:41+00:00"
         },
         {
             "name": "google/analytics-data",
@@ -4365,16 +4366,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.65.0",
+            "version": "v1.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "9fb652318c24db43be8bcbc813a315a2e5731502"
+                "reference": "2405b8116dcc4ec50756cc44486c149e34b1b4e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/9fb652318c24db43be8bcbc813a315a2e5731502",
-                "reference": "9fb652318c24db43be8bcbc813a315a2e5731502",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/2405b8116dcc4ec50756cc44486c149e34b1b4e5",
+                "reference": "2405b8116dcc4ec50756cc44486c149e34b1b4e5",
                 "shasum": ""
             },
             "require": {
@@ -4425,9 +4426,9 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.65.0"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.67.0"
             },
-            "time": "2025-10-01T16:57:30+00:00"
+            "time": "2025-10-10T18:34:03+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -4649,16 +4650,16 @@
         },
         {
             "name": "google/longrunning",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/php-longrunning.git",
-                "reference": "715519ab4aaf3c4268adb2b551ee0f34135c8c5f"
+                "reference": "226d3b5166eaa13754cc5e452b37872478e23375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/php-longrunning/zipball/715519ab4aaf3c4268adb2b551ee0f34135c8c5f",
-                "reference": "715519ab4aaf3c4268adb2b551ee0f34135c8c5f",
+                "url": "https://api.github.com/repos/googleapis/php-longrunning/zipball/226d3b5166eaa13754cc5e452b37872478e23375",
+                "reference": "226d3b5166eaa13754cc5e452b37872478e23375",
                 "shasum": ""
             },
             "require-dev": {
@@ -4687,9 +4688,9 @@
             ],
             "description": "Google LongRunning Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/php-longrunning/tree/v0.5.0"
+                "source": "https://github.com/googleapis/php-longrunning/tree/v0.6.0"
             },
-            "time": "2025-09-20T01:29:44+00:00"
+            "time": "2025-10-07T18:41:09+00:00"
         },
         {
             "name": "google/protobuf",
@@ -5825,16 +5826,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.32.5",
+            "version": "v12.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "77b2740391cd2a825ba59d6fada45e9b8b9bcc5a"
+                "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/77b2740391cd2a825ba59d6fada45e9b8b9bcc5a",
-                "reference": "77b2740391cd2a825ba59d6fada45e9b8b9bcc5a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/124efc5f09d4668a4dc13f94a1018c524a58bcb1",
+                "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1",
                 "shasum": ""
             },
             "require": {
@@ -6040,7 +6041,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-09-30T17:39:22+00:00"
+            "time": "2025-10-07T14:30:39+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -9014,16 +9015,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.46",
+            "version": "3.0.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6"
+                "reference": "9d6ca36a6c2dd434765b1071b2644a1c683b385d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/9d6ca36a6c2dd434765b1071b2644a1c683b385d",
+                "reference": "9d6ca36a6c2dd434765b1071b2644a1c683b385d",
                 "shasum": ""
             },
             "require": {
@@ -9104,7 +9105,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.46"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.47"
             },
             "funding": [
                 {
@@ -9120,7 +9121,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-26T16:29:55+00:00"
+            "time": "2025-10-06T01:07:24+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -14718,6 +14719,56 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.3.0"
             },
             "time": "2024-12-21T16:25:41+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "8.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php",
+                "reference": "a2db2ea514498c4c55de1dfe5b858c8fd3f728ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/a2db2ea514498c4c55de1dfe5b858c8fd3f728ab",
+                "reference": "a2db2ea514498c4c55de1dfe5b858c8fd3f728ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "guzzlehttp/guzzle": "^6.3 || ^7.0",
+                "phpunit/phpunit": ">=7.0 < 10"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "src/Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "https://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2025-09-30T11:57:41+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
