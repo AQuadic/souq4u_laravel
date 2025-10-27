@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/admin-module.git",
-                "reference": "d1803850c2f1933fccb0e2604dbf9aaee7197416"
+                "reference": "a03c1d911a3f7ebdf095e3650455642090515f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/admin-module/zipball/d1803850c2f1933fccb0e2604dbf9aaee7197416",
-                "reference": "d1803850c2f1933fccb0e2604dbf9aaee7197416",
+                "url": "https://api.github.com/repos/AQuadic/admin-module/zipball/a03c1d911a3f7ebdf095e3650455642090515f0d",
+                "reference": "a03c1d911a3f7ebdf095e3650455642090515f0d",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +257,7 @@
                 "source": "https://github.com/AQuadic/admin-module/tree/main",
                 "issues": "https://github.com/AQuadic/admin-module/issues"
             },
-            "time": "2025-09-30T14:35:10+00:00"
+            "time": "2025-10-15T08:40:59+00:00"
         },
         {
             "name": "aquadic/cart-module",
@@ -455,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/common-traits.git",
-                "reference": "02a2566de6e559cc894c64d8243326590ea5f7b4"
+                "reference": "1951421cd7b62542bd60e8a88d865924e762f59e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/common-traits/zipball/02a2566de6e559cc894c64d8243326590ea5f7b4",
-                "reference": "02a2566de6e559cc894c64d8243326590ea5f7b4",
+                "url": "https://api.github.com/repos/AQuadic/common-traits/zipball/1951421cd7b62542bd60e8a88d865924e762f59e",
+                "reference": "1951421cd7b62542bd60e8a88d865924e762f59e",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                     "url": "https://github.com/AQuadic"
                 }
             ],
-            "time": "2025-10-06T09:10:31+00:00"
+            "time": "2025-10-15T12:23:55+00:00"
         },
         {
             "name": "aquadic/coupon-module",
@@ -622,12 +622,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/favorite-module.git",
-                "reference": "cb714503538c0b673527b8887eb832c25f334183"
+                "reference": "8fdf8640a2fad07ded538555a71c97f542b35597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/favorite-module/zipball/cb714503538c0b673527b8887eb832c25f334183",
-                "reference": "cb714503538c0b673527b8887eb832c25f334183",
+                "url": "https://api.github.com/repos/AQuadic/favorite-module/zipball/8fdf8640a2fad07ded538555a71c97f542b35597",
+                "reference": "8fdf8640a2fad07ded538555a71c97f542b35597",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 "source": "https://github.com/AQuadic/favorite-module/tree/main",
                 "issues": "https://github.com/AQuadic/favorite-module/issues"
             },
-            "time": "2025-09-29T12:33:53+00:00"
+            "time": "2025-10-14T13:03:43+00:00"
         },
         {
             "name": "aquadic/media-module",
@@ -733,12 +733,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/notification-module.git",
-                "reference": "48cb1f229f2a882eea1708464be9048756918c4d"
+                "reference": "12de00e5933c3b680ac49af06f94cc9643a8b580"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/48cb1f229f2a882eea1708464be9048756918c4d",
-                "reference": "48cb1f229f2a882eea1708464be9048756918c4d",
+                "url": "https://api.github.com/repos/AQuadic/notification-module/zipball/12de00e5933c3b680ac49af06f94cc9643a8b580",
+                "reference": "12de00e5933c3b680ac49af06f94cc9643a8b580",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                 "source": "https://github.com/AQuadic/notification-module/tree/main",
                 "issues": "https://github.com/AQuadic/notification-module/issues"
             },
-            "time": "2025-10-07T16:18:03+00:00"
+            "time": "2025-10-15T11:46:16+00:00"
         },
         {
             "name": "aquadic/order-module",
@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/order-module.git",
-                "reference": "500de2ffa88900e8b8843ec051330684b4ab5aca"
+                "reference": "315a24a5d8db1db89c6325661cd56690c3158aaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/500de2ffa88900e8b8843ec051330684b4ab5aca",
-                "reference": "500de2ffa88900e8b8843ec051330684b4ab5aca",
+                "url": "https://api.github.com/repos/AQuadic/order-module/zipball/315a24a5d8db1db89c6325661cd56690c3158aaa",
+                "reference": "315a24a5d8db1db89c6325661cd56690c3158aaa",
                 "shasum": ""
             },
             "require": {
@@ -848,7 +848,7 @@
                 "source": "https://github.com/AQuadic/order-module/tree/v2",
                 "issues": "https://github.com/AQuadic/order-module/issues"
             },
-            "time": "2025-10-14T08:27:11+00:00"
+            "time": "2025-10-15T08:46:01+00:00"
         },
         {
             "name": "aquadic/page-module",
@@ -914,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/product-module.git",
-                "reference": "408be7deb32913d7401eed4d85eaa8bea38eef3c"
+                "reference": "4405676a30d24ce058bd97ee1c46ef11034b840e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/408be7deb32913d7401eed4d85eaa8bea38eef3c",
-                "reference": "408be7deb32913d7401eed4d85eaa8bea38eef3c",
+                "url": "https://api.github.com/repos/AQuadic/product-module/zipball/4405676a30d24ce058bd97ee1c46ef11034b840e",
+                "reference": "4405676a30d24ce058bd97ee1c46ef11034b840e",
                 "shasum": ""
             },
             "require": {
@@ -966,7 +966,7 @@
                 "source": "https://github.com/AQuadic/product-module/tree/v2",
                 "issues": "https://github.com/AQuadic/product-module/issues"
             },
-            "time": "2025-10-14T09:16:49+00:00"
+            "time": "2025-10-19T11:26:59+00:00"
         },
         {
             "name": "aquadic/review-module",
@@ -974,12 +974,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/review-module.git",
-                "reference": "5b949de48485eb2f7d5dd195135c5c9db9f6376a"
+                "reference": "5253ae30e8635cf2f3b5283ee0253d3285a50e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/review-module/zipball/5b949de48485eb2f7d5dd195135c5c9db9f6376a",
-                "reference": "5b949de48485eb2f7d5dd195135c5c9db9f6376a",
+                "url": "https://api.github.com/repos/AQuadic/review-module/zipball/5253ae30e8635cf2f3b5283ee0253d3285a50e5c",
+                "reference": "5253ae30e8635cf2f3b5283ee0253d3285a50e5c",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +1021,7 @@
                 "source": "https://github.com/AQuadic/review-module/tree/v2",
                 "issues": "https://github.com/AQuadic/review-module/issues"
             },
-            "time": "2025-10-13T15:13:39+00:00"
+            "time": "2025-10-20T09:34:10+00:00"
         },
         {
             "name": "aquadic/slider-module",
@@ -1144,12 +1144,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AQuadic/user-module.git",
-                "reference": "9ced67313e586ca1ef17c66d40181ad90203892f"
+                "reference": "940d61875c84b8db9fc7cfac7775fb709ce3a30e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/9ced67313e586ca1ef17c66d40181ad90203892f",
-                "reference": "9ced67313e586ca1ef17c66d40181ad90203892f",
+                "url": "https://api.github.com/repos/AQuadic/user-module/zipball/940d61875c84b8db9fc7cfac7775fb709ce3a30e",
+                "reference": "940d61875c84b8db9fc7cfac7775fb709ce3a30e",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1205,7 @@
                 "source": "https://github.com/AQuadic/user-module/tree/main",
                 "issues": "https://github.com/AQuadic/user-module/issues"
             },
-            "time": "2025-10-13T17:16:34+00:00"
+            "time": "2025-10-14T13:40:23+00:00"
         },
         {
             "name": "beste/clock",
@@ -4752,16 +4752,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.32.1",
+            "version": "v4.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb"
+                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb",
-                "reference": "c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/b50269e23204e5ae859a326ec3d90f09efe3047d",
+                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d",
                 "shasum": ""
             },
             "require": {
@@ -4790,9 +4790,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.32.1"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.0"
             },
-            "time": "2025-09-14T05:14:52+00:00"
+            "time": "2025-10-15T20:10:28+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -5884,16 +5884,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.33.0",
+            "version": "v12.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1"
+                "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/124efc5f09d4668a4dc13f94a1018c524a58bcb1",
-                "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
+                "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
                 "shasum": ""
             },
             "require": {
@@ -6005,7 +6005,7 @@
                 "league/flysystem-sftp-v3": "^3.25.1",
                 "mockery/mockery": "^1.6.10",
                 "opis/json-schema": "^2.4.1",
-                "orchestra/testbench-core": "^10.6.5",
+                "orchestra/testbench-core": "^10.7.0",
                 "pda/pheanstalk": "^5.0.6|^7.0.0",
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
@@ -6099,7 +6099,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-10-07T14:30:39+00:00"
+            "time": "2025-10-14T13:58:31+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -6226,16 +6226,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.5",
+            "version": "v2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed"
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/3832547db6e0e2f8bb03d4093857b378c66eceed",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/038ce42edee619599a1debb7e81d7b3759492819",
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819",
                 "shasum": ""
             },
             "require": {
@@ -6283,7 +6283,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-09-22T17:29:40+00:00"
+            "time": "2025-10-09T13:42:30+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -6425,22 +6425,22 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "5.5.0",
+            "version": "5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "a835af59b030d3f2967725697cf88300f579088e"
+                "reference": "bb3e9f21e4196e8afc41def81ef649c164bca25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/a835af59b030d3f2967725697cf88300f579088e",
-                "reference": "a835af59b030d3f2967725697cf88300f579088e",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/bb3e9f21e4196e8afc41def81ef649c164bca25e",
+                "reference": "bb3e9f21e4196e8afc41def81ef649c164bca25e",
                 "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
                 "ext-sodium": "*",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
                 "psr/clock": "^1.0"
             },
             "require-dev": {
@@ -6482,7 +6482,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
-                "source": "https://github.com/lcobucci/jwt/tree/5.5.0"
+                "source": "https://github.com/lcobucci/jwt/tree/5.6.0"
             },
             "funding": [
                 {
@@ -6494,7 +6494,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2025-01-26T21:29:45+00:00"
+            "time": "2025-10-17T11:30:53+00:00"
         },
         {
             "name": "league/commonmark",
@@ -6687,16 +6687,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.26.0",
+            "version": "9.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "7fce732754d043f3938899e5183e2d0f3d31b571"
+                "reference": "cb491b1ba3c42ff2bcd0113814f4256b42bae845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/7fce732754d043f3938899e5183e2d0f3d31b571",
-                "reference": "7fce732754d043f3938899e5183e2d0f3d31b571",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/cb491b1ba3c42ff2bcd0113814f4256b42bae845",
+                "reference": "cb491b1ba3c42ff2bcd0113814f4256b42bae845",
                 "shasum": ""
             },
             "require": {
@@ -6774,20 +6774,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-01T11:24:54+00:00"
+            "time": "2025-10-16T08:22:09+00:00"
         },
         {
             "name": "league/flysystem",
-            "version": "3.30.0",
+            "version": "3.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "2203e3151755d874bb2943649dae1eb8533ac93e"
+                "reference": "c139fd65c1f796b926f4aec0df37f6caa959a8da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/2203e3151755d874bb2943649dae1eb8533ac93e",
-                "reference": "2203e3151755d874bb2943649dae1eb8533ac93e",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c139fd65c1f796b926f4aec0df37f6caa959a8da",
+                "reference": "c139fd65c1f796b926f4aec0df37f6caa959a8da",
                 "shasum": ""
             },
             "require": {
@@ -6855,9 +6855,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.30.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.30.1"
             },
-            "time": "2025-06-25T13:29:59+00:00"
+            "time": "2025-10-20T15:35:26+00:00"
         },
         {
             "name": "league/flysystem-local",
@@ -8339,31 +8339,31 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123"
+                "reference": "eb61920a53057a7debd718a5b89c2178032b52c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dfa08f390e509967a15c22493dc0bac5733d9123",
-                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/eb61920a53057a7debd718a5b89c2178032b52c0",
+                "reference": "eb61920a53057a7debd718a5b89c2178032b52c0",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
-                "symfony/console": "^7.2.6"
+                "symfony/console": "^7.3.4"
             },
             "require-dev": {
-                "illuminate/console": "^11.44.7",
-                "laravel/pint": "^1.22.0",
+                "illuminate/console": "^11.46.1",
+                "laravel/pint": "^1.25.1",
                 "mockery/mockery": "^1.6.12",
-                "pestphp/pest": "^2.36.0 || ^3.8.2",
-                "phpstan/phpstan": "^1.12.25",
+                "pestphp/pest": "^2.36.0 || ^3.8.4",
+                "phpstan/phpstan": "^1.12.32",
                 "phpstan/phpstan-strict-rules": "^1.6.2",
-                "symfony/var-dumper": "^7.2.6",
+                "symfony/var-dumper": "^7.3.4",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -8406,7 +8406,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.1"
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.2"
             },
             "funding": [
                 {
@@ -8422,7 +8422,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-08T08:14:37+00:00"
+            "time": "2025-10-18T11:10:27+00:00"
         },
         {
             "name": "nwidart/laravel-modules",
@@ -9838,16 +9838,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.12",
+            "version": "v0.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "cd23863404a40ccfaf733e3af4db2b459837f7e7"
+                "reference": "d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/cd23863404a40ccfaf733e3af4db2b459837f7e7",
-                "reference": "cd23863404a40ccfaf733e3af4db2b459837f7e7",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e",
+                "reference": "d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e",
                 "shasum": ""
             },
             "require": {
@@ -9862,9 +9862,11 @@
                 "symfony/console": "4.4.37 || 5.3.14 || 5.3.15 || 5.4.3 || 5.4.4 || 6.0.3 || 6.0.4"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.2"
+                "bamarni/composer-bin-plugin": "^1.2",
+                "composer/class-map-generator": "^1.6"
             },
             "suggest": {
+                "composer/class-map-generator": "Improved tab completion performance with better class discovery.",
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
                 "ext-pdo-sqlite": "The doc command requires SQLite to work.",
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well."
@@ -9910,9 +9912,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.12"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.13"
             },
-            "time": "2025-09-20T13:46:31+00:00"
+            "time": "2025-10-20T22:48:29+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -11046,16 +11048,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "11.15.0",
+            "version": "11.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "9d1e9731d36817d1649bc584b2c40c0c9d4bcfac"
+                "reference": "3515057560927ff762cb76f3cb2c4777a34b1519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/9d1e9731d36817d1649bc584b2c40c0c9d4bcfac",
-                "reference": "9d1e9731d36817d1649bc584b2c40c0c9d4bcfac",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/3515057560927ff762cb76f3cb2c4777a34b1519",
+                "reference": "3515057560927ff762cb76f3cb2c4777a34b1519",
                 "shasum": ""
             },
             "require": {
@@ -11089,7 +11091,7 @@
                 "league/flysystem-aws-s3-v3": "^3.22",
                 "mockery/mockery": "^1.6.7",
                 "orchestra/testbench": "^7.0|^8.17|^9.0|^10.0",
-                "pestphp/pest": "^2.28|^3.5",
+                "pestphp/pest": "^2.28|^3.5|^4.0",
                 "phpstan/extension-installer": "^1.3.1",
                 "spatie/laravel-ray": "^1.33",
                 "spatie/pdf-to-image": "^2.2|^3.0",
@@ -11140,7 +11142,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-medialibrary/issues",
-                "source": "https://github.com/spatie/laravel-medialibrary/tree/11.15.0"
+                "source": "https://github.com/spatie/laravel-medialibrary/tree/11.16.0"
             },
             "funding": [
                 {
@@ -11152,7 +11154,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-19T06:51:45+00:00"
+            "time": "2025-10-21T06:59:05+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -14780,16 +14782,16 @@
         },
         {
             "name": "twilio/sdk",
-            "version": "8.8.3",
+            "version": "8.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twilio/twilio-php",
-                "reference": "a2db2ea514498c4c55de1dfe5b858c8fd3f728ab"
+                "reference": "8bcc603a4cf92b7f268a97662e9185c0ec31dda5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/a2db2ea514498c4c55de1dfe5b858c8fd3f728ab",
-                "reference": "a2db2ea514498c4c55de1dfe5b858c8fd3f728ab",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/8bcc603a4cf92b7f268a97662e9185c0ec31dda5",
+                "reference": "8bcc603a4cf92b7f268a97662e9185c0ec31dda5",
                 "shasum": ""
             },
             "require": {
@@ -14826,7 +14828,7 @@
                 "sms",
                 "twilio"
             ],
-            "time": "2025-09-30T11:57:41+00:00"
+            "time": "2025-10-14T11:55:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -15046,28 +15048,28 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
+                "reference": "541057574806f942c94662b817a50f63f7345360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/11cb2199493b2f8a3b53e7f19068fc6aac760991",
-                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/541057574806f942c94662b817a50f63f7345360",
+                "reference": "541057574806f942c94662b817a50f63f7345360",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
+                "ext-date": "*",
+                "ext-filter": "*",
                 "php": "^7.2 || ^8.0"
             },
-            "conflict": {
-                "phpstan/phpstan": "<0.12.20",
-                "vimeo/psalm": "<4.6.1 || 4.6.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.5.13"
+            "suggest": {
+                "ext-intl": "",
+                "ext-simplexml": "",
+                "ext-spl": ""
             },
             "type": "library",
             "extra": {
@@ -15098,9 +15100,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/1.11.0"
+                "source": "https://github.com/webmozarts/assert/tree/1.12.0"
             },
-            "time": "2022-06-03T18:03:27+00:00"
+            "time": "2025-10-20T12:43:39+00:00"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
