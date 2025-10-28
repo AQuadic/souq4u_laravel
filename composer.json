@@ -20,7 +20,7 @@
         "aquadic/slider-module": "@dev",
         "aquadic/media-module": "@dev",
         "aquadic/notification-module": "@dev",
-        "aquadic/order-module": "v2.x-dev",
+        "aquadic/order-module": "v3.x-dev",
         "aquadic/page-module": "@dev",
         "aquadic/product-module": "v2.x-dev",
         "aquadic/review-module": "v2.x-dev",
