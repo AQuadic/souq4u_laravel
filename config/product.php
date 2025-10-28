@@ -25,6 +25,12 @@ return [
     'tenant' => [
         'model' => null,
     ],
+    'options' => [
+        'most_view' => true,
+        'top_rated' => true,
+        'best_seller' => true,
+
+    ],
     /*
     |--------------------------------------------------------------------------
     | Filament Configurations
