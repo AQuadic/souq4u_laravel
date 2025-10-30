@@ -160,19 +160,7 @@ class StoreSettings extends SettingsPage
                             ->live()
                             ->disabled(fn(callable $get) => $get('country_id') === null),
 
-                        Select::make('area_id')
-                            ->label(__('Area'))
-                            ->searchable()
-                            ->forceSearchCaseInsensitive()
-                            ->options(function (callable $get) {
-                                $cityId = $get('city_id');
-                                if (!$cityId) {
-                                    return [];
-                                }
-                                return Area::where('city_id', $cityId)->pluck('name', 'id')->toArray();
-                            })
-                            ->live()
-                            ->disabled(fn(callable $get) => $get('city_id') === null),
+
 
                         Textarea::make('details')
                             ->translateLabel()
