@@ -31,9 +31,9 @@ class StoreSettings extends Settings
     public ?string $email;
 
     public ?int $subscription_pop_up_duration   ;
-
-    public ?int $city_id   ;
-    public ?int $country_id   ;
+//    public ?int $area_id   ;
+//    public ?int $city_id   ;
+//    public ?int $country_id   ;
     public ?string $details   ;
     public ?array $location   ;
 

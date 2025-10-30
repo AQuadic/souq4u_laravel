@@ -138,28 +138,28 @@ class StoreSettings extends SettingsPage
                             ->url()
                             ->nullable(),
 
-                        Select::make('country_id')
-                            ->label(__('Country'))
-                            ->searchable()
-                            ->forceSearchCaseInsensitive()
-                            ->options(Country::all()->pluck('name', 'id')->toArray())
-                            ->live()
-                            ->afterStateUpdated(fn(callable $set) => $set('city_id', null) && $set('area_id', null)),
-
-                        Select::make('city_id')
-                            ->label(__('City'))
-                            ->searchable()
-                            ->forceSearchCaseInsensitive()
-                            ->options(function (callable $get) {
-                                $countryId = $get('country_id');
-                                if (!$countryId) {
-                                    return [];
-                                }
-                                return City::where('country_id', $countryId)->pluck('name', 'id')->toArray();
-                            })
-                            ->live()
-                            ->disabled(fn(callable $get) => $get('country_id') === null),
-
+//                        Select::make('country_id')
+//                            ->label(__('Country'))
+//                            ->searchable()
+//                            ->forceSearchCaseInsensitive()
+//                            ->options(Country::all()->pluck('name', 'id')->toArray())
+//                            ->live()
+//                            ->afterStateUpdated(fn(callable $set) => $set('city_id', null) && $set('area_id', null)),
+//
+//                        Select::make('city_id')
+//                            ->label(__('City'))
+//                            ->searchable()
+//                            ->forceSearchCaseInsensitive()
+//                            ->options(function (callable $get) {
+//                                $countryId = $get('country_id');
+//                                if (!$countryId) {
+//                                    return [];
+//                                }
+//                                return City::where('country_id', $countryId)->pluck('name', 'id')->toArray();
+//                            })
+//                            ->live()
+//                            ->disabled(fn(callable $get) => $get('country_id') === null),
+//
 
 
                         Textarea::make('details')
