@@ -8,7 +8,8 @@ return new class extends SettingsMigration
     {
         $this->migrator->add('social.subscription_pop_up_duration', '5');
         $this->migrator->add('social.area_id', '');
-        $this->migrator->add('social.details', '');
+        $this->migrator->add('social.slogan', '');
+        $this->migrator->add('social.city_id', '');
         $this->migrator->add('social.city_id', '');
         $this->migrator->add('social.country_id', '');
         $this->migrator->add('social.location', []);

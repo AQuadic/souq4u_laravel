@@ -26,6 +26,7 @@ class StoreSettings extends Settings
     public ?string $whatsapp;
 
     public ?string $phone;
+    public ?string $slogan   ;
 
     public ?string $email;
 

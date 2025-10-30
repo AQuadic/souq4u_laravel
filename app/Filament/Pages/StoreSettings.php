@@ -60,6 +60,10 @@ class StoreSettings extends SettingsPage
 //                            ->placeholder('https://souq4u.com')
 //                            ->prefixIcon('heroicon-o-globe-alt')
 //                            ->nullable(),
+                        Textarea::make('slogan')
+                            ->translateLabel()
+                            ->nullable(),
+
                         TextInput::make('phone')
                             ->label(__('phone'))
                             ->hint(__('phone'))
