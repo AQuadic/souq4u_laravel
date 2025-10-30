@@ -2,9 +2,10 @@
 
 namespace App\Settings;
 
+use MatanYadaev\EloquentSpatial\Objects\Point;
 use Spatie\LaravelSettings\Settings;
 
-class SocialSettings extends Settings
+class StoreSettings extends Settings
 {
     public ?string $url;
 
@@ -27,6 +28,14 @@ class SocialSettings extends Settings
     public ?string $phone;
 
     public ?string $email;
+
+    public ?int $subscription_pop_up_duration   ;
+    public ?int $area_id   ;
+    public ?int $city_id   ;
+    public ?int $country_id   ;
+    public ?string $details   ;
+    public ?array $location   ;
+
 
     public static function group(): string
     {
